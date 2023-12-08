@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "bree Serif";
+}
+
+html { 
+    scroll-behavior: smooth;
+
+}
+
+
+body{
+    background: rgb(29,228,18);
+    background: linear-gradient(0deg, rgba(29,228,18,1) 3%, rgba(8,166,203,1) 98%);
+}
+
+header{
+    width: 100%;
+    height: 8vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+}
+
+main{
+    display: flex;
+    width: 85%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 7.5vw;
+    border-radius: 20px;
+    background-color: #ffff;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 10em;
+    justify-content: space-around;
+    background-color: rgb(28, 180, 149);
+}
+
+header li{
+    font-size: 20px;
+    color:black;
+    border: solid cadetblue 3px;
+    border-radius: 13px;
+}
+
+header li:hover{
+    transition: 500ms;
+    scale: 115%;
+    color: #ffff;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main li{
+    font-size: 18px;
+}
+
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+figcaption{
+    text-align: center;
+}
+
+.mudarTema{
+    display: flex;
+    background: transparent;
+    border-radius: 20px;
+    border: none;
+    height: 3em;
+}
+.mudarTema:hover{
+    transition: 350ms;
+    transform: scale(110%);
+    cursor: pointer;
+}
+
+input{
+    width: 10vw;
+    height: 2.5vh;
+    text-align: center;
+    border-radius: 13px;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    text-align: center;
+    background-color: lightgreen;
+    font-size: 18px;
+    height: 3vh;
+}
+
+.submit:hover{
+    transition: 340ms;
+    transform: scale(110%);
+    cursor: pointer;
+}
+
+footer figure{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 35vw;
+}
+
+footer p{
+    font-size: 15px;
+    font-style: italic;
+    width: 30vw;
+}
+
+.copyright{
+    display: flex;
+    height: 2vh;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 15vh;
+    justify-content: space-evenly;
+}
+
+.lupa{
+    width: 2vw;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10vw;
+}
+
+.primeiraSessao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 45vh;
+} 
+
+.segundaSessao{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.terceiraSessao{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 45vh;
+
+}
+
+.quartaSessao{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstP{
+    display: flex;
+    width: 32vw;
+    font-size: 18px;
+}
+.secondP{
+    display: flex;
+    width: 50vw;
+    font-size: 19px; 
+    text-align: center;
+}
+
+.reciclar{
+    display: flex;
+    width: 20vw;
+}
+
+.vassoura{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.vassora{
+    display: flex;
+    height: 35vh;
+    border-radius: 12px;
+}
+
+.diy{
+    border-radius: 13px;
+    display: flex;
+    height: 35vh;
+}
+
+.materiais{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.quartaSessao li , p{
+    font-size: 2vh;
+}
+
+.lixeira{
+    height: 16vh;
+    margin-top: 10vh;
+}
+
+.final{
+    margin-top: 5vh;
+    display: flex;
+    height: 20vh;
+    border-radius: 20px;
+}
+
+.imgemMaterias{
+    display: flex;
+    height: 30vh;
+    border-radius: 20px;
+}
+
+
+.tema-claro {
+    background-color: white;
+    color: black;
+    transition: background-color 550ms, color 550ms;
+}
+
+
+.tema-escuro {
+    background-color: black;
+    color: white;
+    transition: background-color 550ms, color 550ms;
+}
+
+.tituloMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+.irTopo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+    border-radius: 13px;
+    width: 18vw;
+    margin-top: 2vh;
+    margin-left: 39.3%;
+}
+
+.irTopo:hover{
+    transition: 450ms;
+    transform: scale(110%);
+}
+.topo:hover{
+    transition: 350ms;
+    color: #ffff;
+}
+
+.topo{
+    color: black;
+    text-decoration: none;
+}
+
+.seta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4vh;
+}
+
+.preparacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 20em;
+}
+
+.space{
+    color: transparent;
+}

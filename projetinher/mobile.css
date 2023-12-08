@@ -1,0 +1,7 @@
+@media(min-width:220px) and (max-width:390px){
+    
+    main section{
+        display: none;
+    }
+
+}
